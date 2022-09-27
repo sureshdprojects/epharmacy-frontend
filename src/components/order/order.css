@@ -1,0 +1,10 @@
+.order{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    width: 90vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

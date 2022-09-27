@@ -1,0 +1,9 @@
+.addtocart {
+  background-color: #1abc9c;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 4px;
+}

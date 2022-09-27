@@ -1,0 +1,66 @@
+.signup-container{
+    /* background-color: white; */
+    width: 100vw;
+    height: 100vh;
+    padding: 15px;
+}
+
+.inner-signup-container{
+    border: 1px solid black;
+    width: 80%;
+    height: 90%;
+    margin: 5vh auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+}
+
+.signup-close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    /* color: white; */
+    cursor: pointer;
+}
+
+.signup-input{
+  width: 50%;
+  border: 2px solid #aaa;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  transition: 0.3s;
+  padding: 0 10px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: white;
+}
+
+.signup-input:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 8px 0 #aaa;
+}
+
+.name-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+.Register-heading{
+    padding: 13px;
+}
+
+.create-account-btn{
+    background-color: #1abc9c;
+    width: 50%;
+    height: 38px;
+    margin-left: 11px;
+    border-radius: 8px;
+    cursor: pointer;
+}

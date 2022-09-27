@@ -1,0 +1,110 @@
+.container {
+  width: 45vw;
+  height: 450px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.one {
+  top: 5%;
+  z-index: 998;
+  transform: rotate(2.5deg);
+}
+
+.two {
+  top: 6%;
+  z-index: 1000;
+}
+
+.three {
+  top: 7%;
+  z-index: 999;
+  transform: rotate(-2.5deg);
+}
+
+.container > div {
+  background-color: #f8f9fa;
+  border: 1px solid rgb(245, 212, 212);
+  width: 90%;
+  height: 90%;
+  position: absolute;
+}
+
+.two {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 75%;
+  height: 50%;
+  margin-top: 20px;
+}
+
+.welcome-back {
+  margin-left: 15px;
+}
+
+.or-span {
+  padding: 0 10px;
+  background-color: #f8f9fa;
+}
+
+.input-login {
+  width: 100%;
+  border: 2px solid #aaa;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  transition: 0.3s;
+  padding: 0 10px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: white;
+}
+
+.input-login:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 8px 0 #aaa;
+}
+
+.signin {
+  width: 220px;
+  height: 35px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: larger;
+  background-color: #1abc9c;
+}
+
+.or {
+  text-align: center;
+  width: 60%;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 10px;
+}
+
+.new-account {
+  width: 220px;
+  height: 35px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: larger;
+  background-color: #1abc9c;
+  margin-bottom: 20px;
+}

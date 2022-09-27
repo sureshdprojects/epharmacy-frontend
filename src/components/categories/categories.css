@@ -1,0 +1,46 @@
+.categories {
+  background-color: #1abc9c;
+  height: 60px;
+  margin-top: 70px;
+  color: white;
+}
+
+.category-container {
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  z-index: 200;
+}
+
+.category {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.list {
+  background-color: aliceblue;
+  width: 100px;
+  height: 40px;
+  position: relative;
+  top: 50px;
+  left: 80px;
+}

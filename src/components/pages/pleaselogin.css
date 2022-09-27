@@ -1,0 +1,9 @@
+.pleaselogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 70vh;
+  padding-bottom: 50px;
+  margin: 20px auto;
+}

@@ -1,0 +1,70 @@
+.ordermedicine {
+  margin-top: 20px;
+}
+
+.attatch-prescription {
+  width: 80%;
+  margin: 30px auto;
+  padding-left: 50px;
+}
+
+.order-box {
+  width: 80%;
+  margin: 0 auto;
+  height: 50vh;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.upload-prescription {
+  padding: 30px 20px;
+  width: 60%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.order-type {
+  width: 35%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.upload-button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.upload-icon {
+  cursor: pointer;
+}
+
+.upload {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcb617;
+  border-radius: 8px;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.upload-and-whatsapp{
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 11%;
+}
+.whatsapp{
+  width: 160px;
+  height: 92px;
+  cursor: pointer;
+}
